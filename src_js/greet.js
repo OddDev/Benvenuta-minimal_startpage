@@ -1,8 +1,8 @@
 function generateGreeting(name) {
   const currentTime = new Date();
   const currentHour = currentTime.getHours();
-  let greeting = "To know even one life has breathed easier because you have lived. This is to have succeeded.";
-
+  let greeting = ""
+  
   if (currentHour >= 5 && currentHour < 12) {
     greeting = "Good morning " + name;
   } else if (currentHour >= 12 && currentHour < 17) {
