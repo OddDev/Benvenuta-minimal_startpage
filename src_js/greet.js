@@ -1,7 +1,7 @@
 function generateGreeting(name) {
   const currentTime = new Date();
   const currentHour = currentTime.getHours();
-  let greeting = "";
+  let greeting = "To know even one life has breathed easier because you have lived. This is to have succeeded.";
 
   if (currentHour >= 5 && currentHour < 12) {
     greeting = "Good morning " + name;
@@ -17,6 +17,6 @@ function generateGreeting(name) {
 }
 
 // Set the greeting in the HTML element with the id "greeting"
-const name = "Hitarth"; // Replace with the desired name
+const name = "Kai"; // Replace with the desired name
 const greetingElement = document.getElementById("greeting");
 greetingElement.textContent = generateGreeting(name);
